@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/eight_dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/splash_lighth"
+        app:cardCornerRadius="@dimen/twodp"
+        app:cardElevation="@dimen/four_dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/eight_dp">
+
+            <TextView
+                android:id="@+id/tv_oid"
+                android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                android:padding="@dimen/four_dp"
+                android:text="#"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/grey" />
+
+            <TextView
+                android:id="@+id/tv_counterid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_oid"
+                android:ellipsize="end"
+                android:paddingTop="@dimen/eight_dp"
+                android:text="Counter Id:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey" />
+
+            <TextView
+                android:id="@+id/tv_status_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_oid"
+                android:layout_alignParentRight="true"
+                android:ellipsize="end"
+                android:paddingTop="@dimen/eight_dp"
+                android:paddingRight="@dimen/eight_dp"
+                android:text="status"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey" />
+
+            <TextView
+                android:id="@+id/tv_datetime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_counterid"
+                android:ellipsize="end"
+                android:paddingTop="@dimen/eight_dp"
+                android:text="ordered_on"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey" />
+
+            <TextView
+                android:id="@+id/tv_user_orderednameid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_datetime"
+                android:maxLines="2"
+                android:paddingTop="@dimen/eight_dp"
+                android:text="name(id)"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey" />
+            <TextView
+                android:id="@+id/tv_detail_click"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_user_orderednameid"
+                android:layout_alignParentRight="true"
+                android:padding="@dimen/eight_dp"
+                android:text="See Details »"
+                android:background="@drawable/frame_back_grey"
+                android:textAllCaps="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/grey" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_tab"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/ll_datepickers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/four_dp"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/btn_datepick_from"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_margin="@dimen/four_dp"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_menu_my_calendar"
+            android:contentDescription="From" />
+
+        <ImageView
+            android:id="@+id/btn_datepick_to"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_margin="@dimen/four_dp"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_menu_my_calendar"
+            android:contentDescription="To" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_date_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/four_dp"
+        android:paddingRight="@dimen/four_dp"
+        android:paddingBottom="@dimen/eight_dp"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/tv_date_from"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/four_dp"
+            android:layout_marginRight="@dimen/four_dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Date From:"
+            android:textColor="@color/grey"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_date_to"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/four_dp"
+            android:layout_marginRight="@dimen/four_dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Date To:"
+            android:textColor="@color/grey"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:text="cancel"
+            android:textColor="@color/splash" />
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:text="ok"
+            android:textColor="@color/splash" />
+    </LinearLayout>
+
+
+</LinearLayout>

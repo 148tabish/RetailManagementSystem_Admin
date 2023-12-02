@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Admin Retail Management System</string>
+    <string name="dialog_select_prompt">Choose, how you want to proceed.</string>
+    <string name="currency">₹</string>
+
+    <string-array name="item_categories">
+        <item>Beverages</item>
+        <item>Bread/Bakery</item>
+        <item>Canned/Jarred Goods</item>
+        <item>Dairy</item>
+        <item>Dry/Baking Goods</item>
+        <item>Frozen Foods</item>
+        <item>Produce</item>
+        <item>Cleaners</item>
+        <item>Paper Goods</item>
+        <item>Personal Care</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="item_hint">
+        <item>coffee/tea, juice, soda</item>
+        <item>sandwich loaves, dinner rolls, tortillas, bagels etc</item>
+        <item>vegetables, spaghetti sauce, ketchup etc</item>
+        <item>cheeses, eggs, milk, yogurt, butter etc</item>
+        <item>cereals, flour, sugar, pasta, mixes etc</item>
+        <item>waffles, vegetables, individual meals, ice creams etc</item>
+        <item> fruits, vegetables etc</item>
+        <item>all- purpose, laundry detergent, dishwashing liquid/detergent etc</item>
+        <item>paper towels, toilet paper, aluminum foil, sandwich bags etc</item>
+        <item>shampoo, soap, hand soap, shaving cream etc</item>
+        <item>baby items, pet items, batteries, greeting cards etc</item>
+    </string-array>
+    <string name="date_">Date:</string>
+    <string name="price">\u20b9 %1$s</string>
+
+</resources>

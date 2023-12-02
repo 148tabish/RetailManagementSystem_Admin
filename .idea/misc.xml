@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/workspace/Retail Management System/Project/RetailManagementSystem_Admin/app/src/main/res/layout/activity_add_products.xml" value="0.20642381511946728" />
+        <entry key="..\:/workspace/Retail Management System/Project/RetailManagementSystem_Admin/app/src/main/res/layout/activity_all_sales.xml" value="0.205859375" />
+        <entry key="..\:/workspace/Retail Management System/Project/RetailManagementSystem_Admin/app/src/main/res/layout/activity_bar_graph.xml" value="0.205859375" />
+        <entry key="..\:/workspace/Retail Management System/Project/RetailManagementSystem_Admin/app/src/main/res/layout/activity_counters.xml" value="0.205859375" />
+        <entry key="..\:/workspace/Retail Management System/Project/RetailManagementSystem_Admin/app/src/main/res/layout/activity_login.xml" value="0.205859375" />
+        <entry key="..\:/workspace/Retail Management System/Project/RetailManagementSystem_Admin/app/src/main/res/layout/activity_main.xml" value="0.205859375" />
+        <entry key="..\:/workspace/Retail Management System/Project/RetailManagementSystem_Admin/app/src/main/res/layout/activity_order.xml" value="0.18177083333333333" />
+        <entry key="..\:/workspace/Retail Management System/Project/RetailManagementSystem_Admin/app/src/main/res/layout/dialog_add_counter.xml" value="0.205859375" />
+        <entry key="..\:/workspace/Retail Management System/Project/RetailManagementSystem_Admin/app/src/main/res/layout/dialog_custom_dates.xml" value="0.205859375" />
+        <entry key="..\:/workspace/Retail Management System/Project/RetailManagementSystem_Admin/app/src/main/res/layout/dialog_detail_order.xml" value="0.18177083333333333" />
+        <entry key="..\:/workspace/Retail Management System/Project/RetailManagementSystem_Admin/app/src/main/res/layout/item_counters.xml" value="0.13046875" />
+        <entry key="..\:/workspace/Retail Management System/Project/RetailManagementSystem_Admin/app/src/main/res/layout/item_detail_inlist.xml" value="0.2" />
+        <entry key="..\:/workspace/Retail Management System/Project/RetailManagementSystem_Admin/app/src/main/res/layout/item_list_prod_inbargraph.xml" value="0.205859375" />
+        <entry key="..\:/workspace/Retail Management System/Project/RetailManagementSystem_Admin/app/src/main/res/layout/item_order.xml" value="0.205859375" />
+        <entry key="..\:/workspace/Retail Management System/Project/RetailManagementSystem_Admin/app/src/main/res/layout/item_products.xml" value="0.205859375" />
+        <entry key="..\:/workspace/Retail Management System/Project/RetailManagementSystem_Admin/app/src/main/res/layout/item_spinner.xml" value="0.205859375" />
+        <entry key="..\:/workspace/Retail Management System/Project/RetailManagementSystem_Admin/app/src/main/res/layout/spinner_drop_down.xml" value="0.205859375" />
+        <entry key="..\:/workspace/Retail Management System/Project/RetailManagementSystem_Admin/app/src/main/res/menu/menu_main.xml" value="0.205859375" />
+        <entry key="..\:/workspace/Retail Management System/Project/RetailManagementSystem_Admin/app/src/main/res/menu/menu_products.xml" value="0.205859375" />
+        <entry key="..\:/workspace/Retail Management System/Project/RetailManagementSystem_Admin/app/src/main/res/menu/menu_subs.xml" value="0.205859375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

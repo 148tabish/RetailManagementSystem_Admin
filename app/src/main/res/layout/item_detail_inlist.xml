@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/four_dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="@dimen/four_dp"
+        app:cardMaxElevation="4dp">
+        <!--//pid,pname,pimg,quantity,price,totprice-->
+        <RelativeLayout
+            android:id="@+id/rl_food"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFEEEDED"
+            android:padding="@dimen/four_dp">
+
+            <ImageView
+                android:id="@+id/iv_food_item"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="@dimen/four_dp"
+                android:layout_marginTop="@dimen/four_dp"
+                android:background="@drawable/frame_back_whiteborder"
+                android:padding="@dimen/eight_dp" />
+
+            <TextView
+                android:id="@+id/iv_food_item_taptoview"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="@dimen/four_dp"
+                android:layout_marginTop="@dimen/four_dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="@dimen/eight_dp"
+                android:text="product images"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:id="@+id/tv_bname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_prodid"
+                android:layout_marginLeft="@dimen/four_dp"
+                android:layout_toRightOf="@id/iv_food_item"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:padding="@dimen/four_dp"
+                android:text="name"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/tv_prodid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/four_dp"
+                android:layout_toRightOf="@id/iv_food_item"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingLeft="@dimen/four_dp"
+                android:paddingBottom="@dimen/four_dp"
+                android:text="#"
+                android:textColor="@color/grey"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_fprice"
+                style="@style/TextCustom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_bname"
+                android:layout_marginLeft="@dimen/four_dp"
+                android:layout_toRightOf="@id/iv_food_item"
+                android:text="price" />
+
+            <TextView
+                android:id="@+id/tv_qty"
+                style="@style/TextCustom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_bname"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/four_dp"
+                android:text="Qty: 1" />
+
+            <TextView
+                android:id="@+id/tv_prod_totalprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_fprice"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/four_dp"
+                android:layout_marginBottom="@dimen/eight_dp"
+                android:background="@drawable/frame_back_grey"
+                android:fontFamily="sans-serif-smallcaps"
+                android:paddingLeft="@dimen/margin10"
+                android:paddingTop="@dimen/eight_dp"
+                android:paddingRight="@dimen/margin10"
+                android:paddingBottom="@dimen/eight_dp"
+                android:text="Total"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

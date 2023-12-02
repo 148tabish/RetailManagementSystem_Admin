@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:style="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/splash_lighth"
+    android:layout_margin="@dimen/twodp"
+    android:layout_height="wrap_content"
+    android:padding="2dp">
+
+    <TextView
+        android:id="@+id/tv_pid"
+        style="@style/TextCustom"
+        android:layout_width="match_parent"
+        android:maxLines="2"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/twodp"
+        android:text="#"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/tv_prod_name"
+        style="@style/TextCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_pid"
+        android:layout_marginEnd="@dimen/forty_dp"
+        android:maxLines="2"
+        android:padding="@dimen/twodp"
+        android:textColor="@color/colorAccent"
+        android:text="name" />
+
+    <TextView
+        android:id="@+id/tv_typename_prod"
+        style="@style/TextCustom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_prod_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:maxLines="2"
+        android:padding="@dimen/twodp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tv_qty"
+        style="@style/TextCustom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_typename_prod"
+        android:fontFamily="serif-monospace"
+        android:padding="@dimen/twodp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@color/grey"
+        android:text=""
+         />
+
+
+</RelativeLayout>

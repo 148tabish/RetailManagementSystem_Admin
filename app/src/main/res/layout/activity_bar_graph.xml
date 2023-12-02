@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/margin10"
+    android:paddingLeft="@dimen/margin10"
+    android:paddingRight="@dimen/margin10"
+    android:paddingTop="@dimen/margin10"
+    tools:context=".BarGraphActivity">
+    <LinearLayout
+        android:id="@+id/ll_ta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spn_filterlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/four_dp"
+            android:layout_marginBottom="@dimen/four_dp"
+            android:padding="@dimen/four_dp" />
+        <Spinner
+            android:id="@+id/spn_prodTypeList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/four_dp"
+            android:layout_marginBottom="@dimen/four_dp"
+            android:padding="@dimen/four_dp" />
+    </LinearLayout>
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/chart1"
+        android:layout_width="match_parent"
+        android:layout_below="@id/ll_ta"
+        android:layout_height="200dp" />
+    <ListView
+        android:id="@+id/lv_tab"
+        android:layout_below="@id/chart1"
+        android:layout_width="match_parent"
+        tools:listitem="@layout/item_list_prod_inbargraph"
+        android:layout_height="match_parent"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:id="@+id/rl_image"
+        android:layout_below="@id/lv_tab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_no_history"
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/eight_dp"
+            android:src="@mipmap/ic_launcher"
+            android:visibility="visible" />
+        <TextView
+            android:layout_below="@id/iv_no_history"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/eight_dp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:text="No sales to display"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/margin15"
+        android:layout_marginEnd="@dimen/margin15"
+        android:background="@color/colorWhite"
+        >
+
+        <TextView
+            android:id="@+id/add_counter_title"
+            android:layout_width="match_parent"
+            android:layout_height="?android:actionBarSize"
+            android:gravity="center|start"
+            android:paddingStart="@dimen/padding10"
+            android:text="New Counter"
+            android:textAllCaps="true"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/size21"
+            android:fontFamily="sans-serif"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/add_counter_name_main"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="@dimen/margin20"
+                android:layout_marginTop="@dimen/margin15"
+                android:layout_marginEnd="@dimen/margin20">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:nextFocusDown="@+id/add_counter_password"
+                    android:imeOptions="actionNext"
+                    android:id="@+id/add_counter_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Counter Name"
+                    android:inputType="textPersonName"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/add_counter_pass_main"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin20"
+                android:layout_marginTop="@dimen/margin15"
+                android:layout_marginEnd="@dimen/margin20"
+                app:endIconMode="password_toggle"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/add_counter_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionDone"
+                    android:hint="Counter Password"
+                    android:inputType="textPassword"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin20"
+            android:layout_marginEnd="@dimen/margin15"
+            android:gravity="end">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/add_counter_can"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:textColor="@color/colorBlack"
+                app:strokeColor="@color/colorPrimaryDark"
+                app:strokeWidth="2dp"
+                app:cornerRadius="@dimen/corner10"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/add_counter_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin20"
+                android:text="Add Counter"
+                />
+        </TableRow>
+
+    </LinearLayout>
+
+</RelativeLayout>

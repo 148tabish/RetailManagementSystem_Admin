@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size21">21sp</dimen>
+    <dimen name="margin20">20dp</dimen>
+    <dimen name="margin30">30dp</dimen>
+    <dimen name="margin15">15dp</dimen>
+    <dimen name="padding10">10dp</dimen>
+    <dimen name="padding40">40dp</dimen>
+    <dimen name="padding50">50dp</dimen>
+    <dimen name="corner10">10dp</dimen>
+    <dimen name="margin5">5dp</dimen>
+    <dimen name="corner8">8dp</dimen>
+    <dimen name="margin10">10dp</dimen>
+
+    <dimen name="eight_dp">8dp</dimen>
+    <dimen name="four_dp">4dp</dimen>
+    <dimen name="fortyeight_dp">48dp</dimen>
+    <dimen name="forty_dp">40dp</dimen>
+    <dimen name="twodp">2dp</dimen>
+</resources>

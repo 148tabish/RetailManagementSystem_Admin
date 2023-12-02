@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/spinner_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text Sample"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_marginStart="@dimen/margin5"
+        android:layout_marginEnd="@dimen/margin5"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <TextView
+        android:id="@+id/spinner_item_sub_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text Sample"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:layout_marginStart="@dimen/margin5"
+        android:layout_marginEnd="@dimen/margin5"
+        android:ellipsize="end"
+        />
+    <TextView
+        android:id="@+id/spinner_item_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="@dimen/margin5"
+        android:layout_marginEnd="@dimen/margin5"
+        android:background="#DADADA"
+        android:visibility="gone"
+        />
+</LinearLayout>
